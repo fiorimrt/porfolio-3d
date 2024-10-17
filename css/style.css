@@ -272,3 +272,9 @@ footer .socials {
 .formu button:hover {
     background-color: #0056b3;
 }
+
+
+.about {
+    display: grid;
+
+}
