@@ -6,46 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 
 <body>
 
     <body>
-        <header>
-            <a href="./index.html"> <img src="../assets/img/_F.png" alt=""></a>
+        <header class="header">
 
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../assets/img/_F.png" alt="Logo Percipios" height="50">
+                    </a>
 
-            <nav>
-                <ul class="navbar">
-                    <li><a href="../index.html">home</a></li>
-                    <li><a href="./about.html">about me</a></li>
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="./services.html">services</a></li>
-                    <li><a href="./book_a_call.html">book a call</a></li>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                </ul>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/about.html">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/services.html">services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/book_a_call.html">book a call</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
             </nav>
-
         </header>
         <main>
-            <section class="fiori">
-                <p>_FIORI 3d studio</p>
+            <section>
+                <h2>
+                    Portfolio
+                </h2>
             </section>
+
             <section class="porfolio-imgs">
                 <article>
-                    <img src="../assets/img/cocina-frente-naranja.png">
+                    <img src="../assets/img/cocina-frente-naranja.png" class="cocina_frente_naranja">
                     <p>Joanna's kitchen, Buenos Aires Argentina 2029</p>
                 </article>
                 <article>
-                    <img src="../assets/img/san-diego-play.png">
+                    <img src="../assets/img/san-diego-play.png" class="san-diego-play">
                     <p>Robert's playroom, Barcelona Spain 2020</p>
                 </article>
                 <article>
-                    <img src="../assets/img/cocina-frente-blanca.png">
+                    <img src="../assets/img/cocina-frente-blanca.png" class="cocina-frente-blanca">
                     <p>Robert's kitchen, Barcelona Spain 2020</p>
                 </article>
                 <article>
-                    <img src="../assets/img/cocina-diagonal.png">
+                    <img src="../assets/img/cocina-diagonal.png" class="cocina-diagonal">
                     <p>Cristine's kitchen, Cordoba Argentina 2023</p>
                 </article>
             </section>
@@ -54,21 +79,22 @@
 
                     <label>Subscribe to newsletter </label>
                     <input placeholder="Your mail" type="text" id="Name" name="Name" />
-                    <button>Subscribe</button>
+                    <button class="btn btn-primary">Subscribe</button>
                 </form>
             </section>
 
         </main>
-        <footer>
+        <footer class="container-fluid d-flex justify-content-end align-items-center">
             <ul>
-                <li class="socials">
-                    <a href=""><img src="../assets/img/logo-insta.png" class="insta"></a>
-                    <a href=""><img src="../assets/img/logo-twitter.png" class="twitter"></a>
-                    <a href=""><img src="../assets/img/logo-linkedin.png" class="linked"></a>
+                <li class="col-12 pt-2 ">
+                    <a href="#"><img src="../assets/img/logo-insta.png" class="insta"></a>
+                    <a href="#"><img src="../assets/img/logo-twitter.png" class="twitter"></a>
+                    <a href="#"><img src="../assets/img/logo-linkedin.png" class="linked"></a>
                 </li>
             </ul>
         </footer>
 
     </body>
+    <script src="./js/bootstrap.min.js"></script>
 
 </html>
