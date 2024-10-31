@@ -519,12 +519,14 @@ footer li {
 
 @media (max-width: 1024px) {
     .grid-container {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         width: 80%;
         height: auto;
-        max-width: 1200px;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 500px);
+        width: 80%;
+        height: auto;
+
+
         justify-content: center;
         align-items: center;
         gap: 20px;
@@ -532,11 +534,7 @@ footer li {
         justify-content: center;
 
 
-        grid-template-areas:
-            "cocina_frente_naranja cocina_frente_naranja cocina_diagonal cocina_diagonal"
-            "san_diego san_diego san_diego san_diego"
-            "cocina_frente_blanca cocina_frente_blanca cocina_frente_blanca toilette_mayling"
-            "vista_anafe_1 elefante elefante elefante";
+
     }
 
     .grid-container article img {
