@@ -464,7 +464,14 @@ footer li {
     border-radius: 20px;
 }
 
+/* BOOK A CALL */
 
+.formulario {
+    width: 100%;
+    align-items: center;
+
+
+}
 
 /*.grid-container-services {
     display: grid;
@@ -767,12 +774,13 @@ footer li {
     .formu {
 
         display: flex;
+        flex-direction: column;
         align-items: center;
         width: 100%;
         gap: 1rem;
         justify-content: center;
         white-space: wrap;
-        flex-direction: column;
+
 
 
     }
