@@ -1,0 +1,36 @@
+.grid-container-about {
+    display: grid;
+    width: 100%;
+    height: auto;
+    max-width: 1024px;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+
+
+
+    grid-template-areas:
+        "about-me-text img-perfil"
+        "about-me-text img-perfil"
+        "about-me-100 img-perfil"
+}
+
+
+
+.about-me-text {
+    grid-area: about-me-text;
+
+}
+
+.img-perfil {
+    grid-area: img-perfil;
+
+}
+
+.about-me-100 {
+    grid-area: about-me-100;
+
+}

@@ -1,0 +1,34 @@
+@import "./utilities/mixins";
+@import "utilities/functions";
+@import "utilities/map";
+
+@import "utilities/variables";
+
+@import "base/reset";
+@import "base/font";
+
+@import "layout/index/sec1.scss";
+@import "layout/about/grid-about.scss";
+@import "layout/make-a-call/formu-book.scss";
+@import "layout/porfolio/grid-porfolio.scss";
+@import "layout/servicess/flex-servicios.scss";
+@import "layout/header";
+@import "layout/index/frase.scss";
+@import "layout/form-suscrip.scss";
+@import "layout/footer.scss";
+@import "layout/h2.scss";
+
+
+
+
+
+
+
+@import "components/bootstrap";
+@import "components/buttons";
+@import "components/cards";
+
+
+@import "layout/medidas/media1024.scss";
+@import "layout/medidas/media768.scss";
+@import "layout/medidas/media480.scss";

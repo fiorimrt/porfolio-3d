@@ -1,0 +1,103 @@
+.palabras {
+    .mititulo {
+        @extend .mititulo;
+        padding-top: 4rem;
+    }
+}
+
+
+.grid-container {
+    display: grid;
+    width: 80%;
+    height: auto;
+    max-width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 500px);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    justify-content: center;
+
+    grid-template-areas:
+        "cocina_frente_naranja_a cocina_frente_naranja_a cocina_diagonal_a cocina_diagonal_a"
+        "san_diego_a san_diego_a san_diego_a san_diego_a"
+        "cocina_frente_blanca_a cocina_frente_blanca_a cocina_frente_blanca_a toilette_mayling_a"
+        "vista_anafe_1_a elefante_a elefante_a elefante_a";
+
+    article img {
+        height: 400px;
+        width: 100%;
+        @include border;
+        @include hover-img;
+
+    }
+
+    a img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.cocina_frente_naranja_a {
+    height: 400px;
+
+    grid-area: cocina_frente_naranja_a;
+    transition: filter 0.3s ease;
+
+
+}
+
+.cocina_diagonal_a {
+    height: 400px;
+
+    grid-area: cocina_diagonal_a;
+    transition: filter 0.3s ease;
+
+
+}
+
+.san_diego_a {
+    height: 400px;
+
+    grid-area: san_diego_a;
+    transition: filter 0.3s ease;
+
+
+}
+
+.cocina_frente_blanca_a {
+    height: 400px;
+
+    grid-area: cocina_frente_blanca_a;
+    transition: filter 0.3s ease;
+
+
+}
+
+.toilette_mayling_a {
+    height: 400px;
+
+    grid-area: toilette_mayling_a;
+    transition: filter 0.3s ease;
+
+
+}
+
+.vista_anafe_1_a {
+    height: 400px;
+
+    grid-area: vista_anafe_1_a;
+    transition: filter 0.3s ease;
+
+
+}
+
+.elefante_a {
+    height: 400px;
+    grid-area: elefante_a;
+    transition: filter 0.3s ease;
+
+
+}

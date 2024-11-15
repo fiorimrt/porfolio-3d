@@ -1,0 +1,38 @@
+@import "../utilities/map";
+
+.formu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    justify-content: center;
+    white-space: nowrap;
+    flex-direction: row;
+    padding: 20px;
+    height: auto;
+
+    label {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        align-items: center;
+        height: 2.4rem;
+    }
+
+}
+
+
+.subs {
+    display: flex;
+    background-color: map-get($colors, primario) !important;
+
+    &:hover {
+        background-color: map-get($colors, primario-hover) !important;
+    }
+}

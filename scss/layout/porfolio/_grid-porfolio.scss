@@ -1,0 +1,27 @@
+.porfolio-imgs {
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 3rem;
+
+        p {
+            text-align: start;
+            padding-bottom: 1rem;
+            padding-left: 20%;
+        }
+    }
+
+    img {
+        height: auto;
+        width: 60%;
+    }
+}
+
+.cocina_frente_naranja,
+.san-diego-play,
+.cocina-frente-blanca,
+.cocina-diagonal {
+    border-radius: 30px;
+    margin: 0 auto;
+}

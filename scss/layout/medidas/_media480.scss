@@ -1,0 +1,198 @@
+/* INDEX */
+
+
+@media(max-width: 480px) {
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        max-width: 1200px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 0 auto;
+        justify-content: center;
+
+        article img {
+            height: 400px;
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        a img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .cocina_frente_naranja {
+        height: 400px;
+        border-radius: 20px;
+        grid-area: cocina_frente_naranja;
+    }
+
+    .cocina_diagonal {
+        height: 400px;
+        border-radius: 20px;
+        grid-area: cocina_diagonal;
+    }
+
+    .san_diego {
+        height: 400px;
+        border-radius: 20px;
+        grid-area: san_diego;
+    }
+
+    .cocina_frente_blanca {
+        height: 400px;
+        border-radius: 20px;
+        grid-area: cocina_frente_blanca;
+    }
+
+    .toilette_mayling {
+        height: 400px;
+        border-radius: 20px;
+        grid-area: toilette_mayling;
+    }
+
+    .vista_anafe_1 {
+        height: 400px;
+        border-radius: 20px;
+        grid-area: vista_anafe_1;
+    }
+
+    .elefante {
+        height: 400px;
+        border-radius: 20px;
+        grid-area: elefante;
+    }
+
+    .formu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+        justify-content: center;
+        white-space: wrap;
+
+        label {
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            align-items: center;
+            height: 2.4rem;
+        }
+    }
+
+    /* ABOUT */
+
+
+
+
+    .grid-container-about {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: auto;
+        max-width: 1200px;
+    }
+
+    .img-perfil {
+        width: 40%;
+    }
+
+
+    /* PORFOLIO */
+
+
+
+
+    .porfolio-imgs article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 3rem;
+    }
+
+
+
+    .porfolio-imgs article p {
+        text-align: start;
+        padding-bottom: 1rem;
+        padding-left: 20%;
+
+
+    }
+
+    .porfolio-imgs img {
+        height: auto;
+        width: 80%;
+    }
+
+    .cocina_frente_naranja {
+        border-radius: 30px;
+        margin: 0 auto;
+        width: 60%;
+
+
+    }
+
+
+    .san-diego-play {
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+
+    .cocina-frente-blanca {
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+
+    .cocina-diagonal {
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+
+}
+
+
+/* SERVICES */
+
+.flex-services {
+    padding: 2.5rem;
+    align-items: center;
+}
+
+.flex-1,
+.flex-2,
+.flex-3 {
+    display: flex;
+    gap: 1.25rem;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-services-1,
+.p-services-2,
+.p-services-3 {
+    width: 80%;
+}
+
+.guy-design,
+.working,
+.oculus {
+    border-radius: 20px;
+    width: 80%;
+}

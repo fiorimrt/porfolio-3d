@@ -1,0 +1,38 @@
+footer {
+    width: 100%;
+    height: 3.5rem;
+    flex-direction: row;
+    background-color: grey;
+
+    li {
+        list-style-type: none;
+        padding-right: .5rem;
+    }
+}
+
+.insta {
+    height: auto;
+    width: 50px;
+}
+
+.twitter {
+    height: auto;
+    width: 35px;
+    margin-right: 2px;
+}
+
+.linked {
+    height: auto;
+    width: 35px;
+}
+
+.palabras {
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}

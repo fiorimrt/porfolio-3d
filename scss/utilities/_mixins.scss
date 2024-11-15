@@ -1,0 +1,13 @@
+@mixin border {
+
+    border-radius: 20px;
+
+}
+
+
+
+@mixin hover-img {
+    &:hover {
+        filter: grayscale(100%);
+    }
+}

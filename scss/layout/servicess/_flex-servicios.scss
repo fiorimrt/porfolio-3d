@@ -1,0 +1,26 @@
+.flex-services {
+    padding: 2.5rem;
+    align-items: center;
+
+}
+
+.flex-1,
+.flex-2,
+.flex-3 {
+    display: flex;
+    gap: 1.25rem;
+    margin: 50px;
+    justify-content: center;
+}
+
+.p-services-1,
+.p-services-2,
+.p-services-3 {
+    width: 300px;
+}
+
+.guy-design,
+.working,
+.oculus {
+    border-radius: 20px;
+}
