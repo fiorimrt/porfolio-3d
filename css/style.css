@@ -13,8 +13,17 @@ button {
   font-family: poppins;
   src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 }
-.palabras .mititulo {
-  padding-top: 4rem;
+.palabras, .title {
+  display: flex;
+  width: 100%;
+}
+.palabras .words, .title .words {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 100;
+  padding-right: 10rem;
 }
 
 .grid-container {
@@ -116,6 +125,11 @@ button {
 .formulario {
   width: 100%;
   align-items: center;
+}
+
+.title {
+  justify-content: start !important;
+  padding-top: 0 !important;
 }
 
 .porfolio-imgs article {
@@ -251,7 +265,7 @@ footer li {
   width: 35px;
 }
 
-.palabras {
+.palabras, .title {
   flex-direction: row;
   width: 100%;
   padding: 20px;
@@ -262,10 +276,10 @@ footer li {
   padding: 50px;
 }
 
-.mititulo, .palabras .mititulo {
+h2 {
   margin-left: 10%;
   padding-top: 2rem;
-  font-family: "Poppins", system-ui;
+  font-family: "Poppins", system-ui !important;
   font-weight: 400;
   font-style: normal;
 }

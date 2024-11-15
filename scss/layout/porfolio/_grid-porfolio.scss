@@ -1,3 +1,12 @@
+.title {
+
+    @extend .palabras;
+    justify-content: start !important;
+    padding-top: 0 !important;
+
+}
+
+
 .porfolio-imgs {
     article {
         display: flex;
