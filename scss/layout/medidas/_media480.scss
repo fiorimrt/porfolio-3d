@@ -105,10 +105,17 @@
         width: 60%;
         height: auto;
         max-width: 1200px;
+        align-items: center;
+        justify-content: center;
     }
 
     .img-perfil {
-        width: 40%;
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .about-me-text {
+        width: 100%;
     }
 
 
