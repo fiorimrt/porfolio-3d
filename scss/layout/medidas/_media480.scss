@@ -167,32 +167,45 @@
 
 
 /* SERVICES */
-
 .flex-services {
-    padding: 2.5rem;
-    align-items: center;
-}
-
-.flex-1,
-.flex-2,
-.flex-3 {
-    display: flex;
-    gap: 1.25rem;
-    margin: 50px;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+    align-items: top;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 50px;
 
-.p-services-1,
-.p-services-2,
-.p-services-3 {
-    width: 80%;
-}
 
-.guy-design,
-.working,
-.oculus {
-    border-radius: 20px;
-    width: 80%;
+
+
+    .flex-1,
+    .flex-2,
+    .flex-3 {
+        display: flex;
+        gap: 1.25rem;
+
+        flex-direction: column;
+
+
+    }
+
+
+
+    .guy-design,
+    .working,
+    .oculus {
+        border-radius: 20px;
+        height: 15rem;
+        width: 20rem;
+        object-fit: cover;
+    }
+
+    .p-services-1,
+    .p-services-2,
+    .p-services-3 {
+        width: 20rem;
+    }
+
+
 }
